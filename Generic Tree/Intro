@@ -1,0 +1,16 @@
+1 - A tree has many nodes and its child has many subchilds.
+2 - This is also called NAry tree's
+3 - so we can make a class of
+
+class Node {
+    int data ;
+    ArrayList<Node> childrens;
+
+    Node(int data){
+        this->data = data ;
+        this->childrens = new ArrayList<>();
+    }
+}
+
+4 - by default in Node its store data = 0 , and childrens = null ;
+5 - 
